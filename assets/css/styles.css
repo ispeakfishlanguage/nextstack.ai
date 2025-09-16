@@ -125,6 +125,20 @@ p, .lead {
 }
 
 /* Card background variants for section contrast */
+/* White sections get light blue tinted cards */
+section:not(.bg-light-blue) .card {
+  background: linear-gradient(135deg, rgba(0,118,249,0.02) 0%, rgba(0,194,250,0.05) 100%) !important;
+}
+
+section:not(.bg-light-blue) .modern-card {
+  background: linear-gradient(135deg, rgba(0,118,249,0.02) 0%, rgba(0,194,250,0.05) 100%) !important;
+}
+
+section:not(.bg-light-blue) .modern-card:hover {
+  background: linear-gradient(135deg, rgba(0,118,249,0.05) 0%, rgba(0,194,250,0.08) 100%) !important;
+}
+
+/* Light blue sections get white cards */
 .bg-light-blue .card {
   background: white !important;
 }
