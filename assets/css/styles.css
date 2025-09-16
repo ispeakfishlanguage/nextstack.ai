@@ -48,6 +48,7 @@ p, .lead {
   --secondary-color: #00c2fa;
   --dark-color: #000000;
   --light-bg: #f8f9fa;
+  --light-blue-bg: rgba(0, 194, 250, 0.05);
   --gradient: linear-gradient(135deg, #0076f9 0%, #00c2fa 100%);
   --primary-rgb: 0, 118, 249;
   --secondary-rgb: 0, 194, 250;
@@ -56,6 +57,7 @@ p, .lead {
 /* Bootstrap color overrides */
 .bg-primary { background-color: #0076f9 !important; }
 .text-primary { color: #0076f9 !important; }
+.bg-light-blue { background-color: var(--light-blue-bg) !important; }
 .btn-primary {
   background-color: #0076f9;
   border-color: #0076f9;
